@@ -1,7 +1,6 @@
-(function(){
+$( "#removeDiv" ).click(function() {
+ 
+  $( "#remove" ).slideUp();
 
-    // Todo
-
-})();
-
+});
 
