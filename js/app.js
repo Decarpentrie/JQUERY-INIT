@@ -4,3 +4,9 @@ $( "#removeDiv" ).click(function() {
 
 });
 
+
+$( "#setText" ).change(function() {
+  $( "#needText" ).append($("#setText").val());
+});
+
+
